@@ -1,4 +1,4 @@
-const weekdays = ['mon','tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
 const openingHours = {
   [weekdays[3]]: {
@@ -9,9 +9,9 @@ const openingHours = {
     open: 11,
     close: 23,
   },
-  [`day-${2+4}`]: {
+  [`day-${2 + 4}`]: {
     open: 0,
-    close: 12+12,
+    close: 12 + 12,
   },
 };
 const restaurant = {

@@ -72,8 +72,8 @@ console.log(restaurant.orderRisotto?.(0, 1) ?? "Method does not exits");
 
 // console.log(users[0]?.name ?? "User array empty");
 const users = [];
-if(users.length >0 ){
+if (users.length > 0) {
   console.log(users[0]?.name);
-}else{
+} else {
   console.log("User array empty");
 }

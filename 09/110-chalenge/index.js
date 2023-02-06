@@ -65,11 +65,11 @@ const printGoals = function (...player) {
   console.log(`${players.length} goals were scored`);
 };
 printGoals("Davies", "Muller", "Lewandowski", "Kimmich");
-  printGoals("Davies", "Muller" );
-  printGoals(...game.scored)
+printGoals("Davies", "Muller");
+printGoals(...game.scored)
 
-  //7
+//7
 
-  team1<team2 && console.log('team 1 is more likely to win');
-  team1>team2 && console.log('team 2 is more likely to win');
+team1 < team2 && console.log('team 1 is more likely to win');
+team1 > team2 && console.log('team 2 is more likely to win');
 
